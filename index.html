@@ -5,6 +5,9 @@
     <title></title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Parisienne&family=Redressed&family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" media="all">
 </head>
 <body>
@@ -12,13 +15,24 @@
     <div class="wrapperFoco">
         <div class="foco">
         </div>
-        <button id="btnPlay" class="btn-inicio btn-inicio animate__animated animate__lightSpeedInRight animate__delay-3s">Iniciar</button>
+        <button id="btnPlay" class="btn-inicio btn-inicio animate__animated animate__lightSpeedInRight animate__delay-4s">Iniciar</button>
+    </div> 
+    <audio id="musica" src="./muscia/musica_fondo.mp3" preload="auto" controls></audio>
+
+    <div class="wrapperInvitacion">
+        <div class="fondo2">
+            <h1 class="xareni">Xareni</h1>
+            <h2 class="cumple">Cumple 4 años</h2>
+            <h2 class="fecha">Sábado <div class="numero">05</div> Marzo</h2>
+            <h2 class="texto">Te invitamos a celebrar 4:00pm</h2>
+            <img class="boo" src="./imagen/mike-surprise.gif" alt="">
+            <img class="marco" src="./imagen/fondo.png" alt="">
+        </div>
     </div>
-
-
+    <img class="saludo" src="./imagen/1.gif" alt="">    
     
-    <audio id="musica" src="./muscia/musica_fondo.mp3" preload="auto" loop controls></audio>
-
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./js/index.js"></script>
 </body>
 </html>

@@ -1,12 +1,17 @@
+/* font-family: 'Caveat', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Shadows Into Light', cursive; */
+
 @font-face {
     font-family: 'monter';
     src: url('./Monster_AG.ttf');
 }
-
+html,body{
+    height: 100%;
+}
 
 body{
     background: black;
-    color: #FFF;
     font-family: monter;
 }
 
@@ -83,7 +88,7 @@ body{
       padding: 5px 50px;
       text-shadow: 3px 4px 3px #000000;
       box-shadow: 3px 0px 6px #636060;
-      transition: all .8s;
+      transition: all .2s;
       cursor: pointer;
   }
 
@@ -93,3 +98,125 @@ body{
       background: #165398;
       border: 5px solid #FFFFFF;
   }
+
+  .btn-inicio:active {
+    letter-spacing: 10px;
+  }
+
+  #musica{
+      position: absolute;
+  }
+
+  .wrapperInvitacion{
+      border: 1px solid blue;;
+      text-align: center;
+      z-index: 100;
+      position: relative;
+      opacity: 0;
+      pointer-events: none;
+      background: #FFFFFF;
+      line-height: 0;
+      min-height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 25px 0;
+      display: none;
+  }
+  .fondo2{
+      display: inline-block;
+      width: auto;
+      line-height: 0;
+      background: #FFFFFF;
+      border-radius: 25px;
+      overflow: hidden;
+      position: relative;
+  }
+  .fondo2 .marco{
+      width: 700px;
+  }
+.boo{
+    position: absolute;
+    bottom: 4%;
+    right: 11%;
+}
+
+.saludo{
+    position: fixed;
+    left: -68px;
+    z-index: 1000;
+    bottom: 0;
+    display: none;
+}
+
+.xareni{
+    position: absolute;
+    width: 50%;
+    height: 50px;
+    font-size: 70pt;
+    padding-top: 52px;
+    left: 25%;
+    background: #69019e;
+    border-radius: 27px;
+    box-shadow: 0px 0px 11px black;
+    color: #FFF;
+    /* font-family: 'Caveat', cursive; */
+    /* font-family: 'Parisienne', cursive; */
+    font-family: 'Shadows Into Light', cursive; 
+}
+.cumple{
+    position: absolute;
+    width: 75%;
+    height: 50px;
+    font-size: 54pt;
+    padding-top: 52px;
+    left: 12.5%;
+    background: #98C931;
+    /* border-radius: 27px; */
+    box-shadow: 0px 0px 11px black;
+    color: #FFF;
+    font-family: 'Caveat', cursive;
+    /* font-family: 'Parisienne', cursive; */
+    /* font-family: 'Shadows Into Light', cursive; */
+    top: 147px;
+}
+.fecha{
+    position: absolute;
+    width: 40%;
+    /* height: 50px; */
+    font-size: 37pt;
+    padding-top: 18px;
+    left: 7%;
+    /* background: #69019e; */
+    border-radius: 27px;
+    /* box-shadow: 0px 0px 11px black; */
+    /* font-family: 'Caveat', cursive; */
+    font-family: 'Redressed', cursive;
+    /* font-family: 'Shadows Into Light', cursive; */
+    top: 37%;
+    line-height: normal;
+    z-index: 2;
+    color: #9b9b9b;
+}
+.texto{
+    position: absolute;
+    width: 30%;
+    /* height: 50px; */
+    font-size: 30pt;
+    padding-top: 18px;
+    left: 11%;
+    /* background: #69019e; */
+    border-radius: 27px;
+    /* box-shadow: 0px 0px 11px black; */
+    /* font-family: 'Caveat', cursive; */
+    font-family: 'Parisienne', cursive;
+    /* font-family: 'Shadows Into Light', cursive; */
+    top: 66%;
+    line-height: normal;
+    z-index: 2;
+    color: #9b9b9b;
+}
+
+.numero {
+    color: #e28896;
+}
