@@ -105,6 +105,7 @@ body{
 
   #musica{
       position: absolute;
+      opacity: 0;
   }
 
   .wrapperInvitacion{
