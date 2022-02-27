@@ -222,3 +222,297 @@ body{
 .numero {
     color: #e28896;
 }
+
+
+
+
+@media (max-width: 1000px) {
+    .btn-inicio {
+        font-size: 25pt;
+    }
+}
+@media (max-width: 800px) {
+    .fondo2 .marco {
+        width: 580px;
+    }
+
+    .boo {
+        width: 40%;
+    }
+    .xareni {
+        font-size: 50pt;
+    }
+    .cumple {
+        width: 70%;
+        left: 15%;
+        font-size: 40pt;
+        height: 40px;
+        padding-top: 40px;
+    }
+    .fecha {
+        font-size: 30pt;
+    }
+    .texto {
+        width: 35%;
+        font-size: 30pt;
+        top: 62%;
+    }
+}
+
+
+@media (max-width: 750px) {
+    .fondo2 .marco {
+        width: 500px;
+    }
+
+    .boo {
+        width: 40%;
+    }
+    .xareni {
+        font-size: 50pt;
+    }
+    .cumple {
+        width: 70%;
+        left: 15%;
+        font-size: 30pt;
+        height: 40px;
+        padding-top: 40px;
+    }
+    .fecha {
+        font-size: 30pt;
+    }
+    .texto {
+        width: 35%;
+        font-size: 25pt;
+        top: 62%;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .fondo2 .marco {
+        width: 450px;
+    }
+
+    .boo {
+        width: 40%;
+    }
+    .xareni {
+        height: 40px;
+        font-size: 40pt;
+        padding-top: 40px;
+        top: 20px;
+    }
+    .cumple {
+        width: 60%;
+        left: 20%;
+        font-size: 30pt;
+        height: 40px;
+        padding-top: 40px;
+    }
+    .fecha {
+        top: 40%;
+        font-size: 25pt;
+    }
+    .texto {
+        width: 35%;
+        font-size: 20pt;
+        top: 65%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .fondo2 .marco {
+        width: 400px;
+    }
+
+    .boo {
+        width: 35%;
+    }
+    .xareni {
+        height: 40px;
+        font-size: 30pt;
+        padding-top: 35px;
+        top: 20px;
+    }
+    .cumple {
+        width: 60%;
+        left: 20%;
+        font-size: 25pt;
+        height: 30px;
+        padding-top: 30px;
+        top: 130px;
+    }
+    .fecha {
+        top: 40%;
+        font-size: 22pt;
+    }
+    .texto {
+        width: 35%;
+        font-size: 20pt;
+        top: 65%;
+    }
+}
+  
+@media (max-width: 500px) {
+    .fondo2 .marco {
+        width: 300px;
+    }
+
+    .boo {
+        width: 35%;
+    }
+    .xareni {
+        height: 30px;
+        font-size: 25pt;
+        padding-top: 30px;
+        top: 20px;
+    }
+    .cumple {
+        width: 60%;
+        left: 20%;
+        font-size: 20pt;
+        height: 20px;
+        padding-top: 20px;
+        top: 100px;
+    }
+    .fecha {
+        top: 35%;
+        font-size: 19pt;
+    }
+    .texto {
+        width: 35%;
+        font-size: 15pt;
+        top: 63%;
+    }
+    .saludo {
+        position: fixed;
+        left: -15%;
+        z-index: 1000;
+        bottom: 0;
+        display: none;
+        width: 40%;
+    }
+}
+
+@media (max-width: 450px) {
+    .fondo2 .marco {
+        width: 300px;
+    }
+
+    .boo {
+        width: 35%;
+    }
+    .xareni {
+        height: 30px;
+        font-size: 25pt;
+        padding-top: 30px;
+        top: 20px;
+    }
+    .cumple {
+        width: 60%;
+        left: 20%;
+        font-size: 20pt;
+        height: 20px;
+        padding-top: 20px;
+        top: 100px;
+    }
+    .fecha {
+        top: 35%;
+        font-size: 19pt;
+    }
+    .texto {
+        width: 35%;
+        font-size: 15pt;
+        top: 63%;
+    }
+    .saludo {
+        position: fixed;
+        left: -15%;
+        z-index: 1000;
+        bottom: 0;
+        display: none;
+        width: 40%;
+    }
+}
+@media (max-width: 350px) {
+    .fondo2 .marco {
+        width: 250px;
+    }
+
+    .boo {
+        width: 35%;
+    }
+    .xareni {
+        height: 30px;
+        font-size: 25pt;
+        padding-top: 30px;
+        top: 20px;
+    }
+    .cumple {
+        width: 60%;
+        left: 20%;
+        font-size: 20pt;
+        height: 20px;
+        padding-top: 20px;
+        top: 100px;
+    }
+    .fecha {
+        top: 40%;
+        font-size: 15pt;
+    }
+    .texto {
+        width: 35%;
+        font-size: 12pt;
+        top: 65%;
+    }
+    .saludo {
+        position: fixed;
+        left: -15%;
+        z-index: 1000;
+        bottom: 0;
+        display: none;
+        width: 40%;
+    }
+}
+@media (max-width: 280px) {
+    .fondo2 .marco {
+        width: 250px;
+    }
+
+    .boo {
+        width: 35%;
+    }
+    .xareni {
+        height: 30px;
+        font-size: 25pt;
+        padding-top: 30px;
+        top: 20px;
+    }
+    .cumple {
+        width: 60%;
+        left: 20%;
+        font-size: 20pt;
+        height: 20px;
+        padding-top: 20px;
+        top: 100px;
+    }
+    .fecha {
+        top: 40%;
+        font-size: 15pt;
+    }
+    .texto {
+        width: 35%;
+        font-size: 12pt;
+        top: 65%;
+    }
+    .saludo {
+        position: fixed;
+        left: -15%;
+        z-index: 1000;
+        bottom: 0;
+        display: none;
+        width: 40%;
+    }
+}
