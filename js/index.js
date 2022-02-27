@@ -7,7 +7,7 @@ btnPlay.addEventListener('click', iniciar );
 
 
 function iniciar(){
-    musica.play();
+    // musica.play();
     
     $( "#btnPlay" ).removeClass( "animate__lightSpeedInRight animate__delay-4s" );
     $( "#btnPlay" ).addClass( "animate__fadeOutLeft" );
