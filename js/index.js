@@ -22,6 +22,7 @@ function iniciar(){
     $(".wrapperInvitacion").css("display", "block");
     setTimeout(() => {
         $(".saludo").css("display", "block");    
+        $(".booI").css("display", "block");    
     }, 3000);
     
 

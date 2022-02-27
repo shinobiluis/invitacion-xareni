@@ -148,6 +148,14 @@ body{
     bottom: 0;
     display: none;
 }
+.booI{
+    position: fixed;
+    right: 0px;
+    z-index: 1000;
+    bottom: 0;
+    display: none;
+    width: 10%;
+}
 
 .xareni{
     position: absolute;
@@ -255,6 +263,10 @@ body{
         width: 35%;
         font-size: 30pt;
         top: 62%;
+    }
+
+    .booI{
+        width: 20%;
     }
 }
 
